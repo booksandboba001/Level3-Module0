@@ -12,7 +12,7 @@ public class _00_ArrayDemo {
         names[1] = "Sara";
         names[2] = "Fred";
         names[3] = "Marc";
-        names[4] = "Randy";
+        names[4] = "Hikari";
 
         /*
          * Declaring and Initializing an array of ints using a '{' and '}'

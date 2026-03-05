@@ -4,6 +4,53 @@ import java.util.Random;
 
 public class _01_IntroToArrays {
     public static void main(String[] args) {
+    	Random ran = new Random();
+    	int rand=ran.nextInt(50);
+    	int smallest=100;
+    	int largest=0;
+    	String characters[]= new String[5];
+    	characters[0]="Shroud, Hikari. Other names include Inoshima, Hikari, and Enma, Hikari.";
+    	characters[1]="Shroud, Ortho";
+    	characters[2]="Shroud, Idia";
+    	characters[3]="Mrs. Shroud. Also known as S.T.Y.X Chief Engineer";
+    	characters[4]="Mr. Shroud. Also known as S.T.Y.X Director";
+    	System.out.println(characters[3]);
+    	characters[3]="Mrs. Shroud. Also known as S.T.Y.X Chief Engineer.";
+    	System.out.println(characters[3]);
+    	for(int i =0;i<5;i++) {
+    		characters[i]="System error. Message: 404 error";
+    	}
+    	for(int i =0;i<5;i++) {
+    		System.out.println(characters[i]);
+    	}
+    	characters[0]="Shroud, Hikari. Other names include Inoshima, Hikari, and Enma, Hikari";
+    	characters[1]="Shroud, Ortho";
+    	characters[2]="Shroud, Idia";
+    	characters[3]="Mrs. Shroud. Also known as S.T.Y.X Chief Engineer";
+    	characters[4]="Mr. Shroud. Also known as S.T.Y.X Director";
+    	for(int i =0;i<5;i++) {
+    		System.out.println(characters[i]);
+    	}
+    	Integer nums[]=new Integer[50];
+    	for (int i = 0;i<50;i++) {
+    		nums[i]=rand;
+    		rand=ran.nextInt(100);
+    	}
+    	for(int i = 0;i<50;i++){
+    		if (nums[i]<smallest) {
+    			smallest=nums[i];
+    		}
+    		if(nums[i]>largest) {
+    			largest=nums[i];
+    		}
+    	}
+    	System.out.println(smallest);
+    	System.out.println(largest);
+    	for (int i = 0;i<50;i++) {
+    		System.out.println(nums[i]);
+    	}
+    	
+    	System.out.println(nums[49]);
         // 1. declare and Initialize an array 5 Strings
 
         // 2. print the third element in the array
