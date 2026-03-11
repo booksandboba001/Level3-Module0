@@ -5,7 +5,13 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 public class _00_1D_Array_Test {
-
+	public static void main(String args[]) {
+		_00_1D_Array_Test test = new _00_1D_Array_Test();
+		test.testAverage();
+		test.testContains();
+		test.testGetIndex();
+		test.testSum();
+	}
     @Test
     public void testSum() {
         int[] arr = {0, 1, 2, 3};
