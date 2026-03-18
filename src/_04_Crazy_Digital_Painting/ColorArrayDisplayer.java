@@ -7,11 +7,14 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
+import _01_Crazy_Digital_Painting.CrazyDigitalPainting;
+
 /*
  * Complete the steps in the CrazyDigitalPainting class
  */
 
 public class ColorArrayDisplayer {
+	
     public static void displayColorsAsImage(Color[][] colors) {
         JFrame window = new JFrame();
         JLabel label = new JLabel();
